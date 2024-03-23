@@ -1,0 +1,27 @@
+{
+  "name": "cities-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/main.ts"
+  },
+  "types": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "swagger-autogen": "^2.23.7",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "express": "^4.19.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
