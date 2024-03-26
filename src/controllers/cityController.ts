@@ -7,6 +7,14 @@ class CityController {
 
     const value = cities.findAll(country_code, state_code);
 
+    if (value.length <= 0) {
+      response
+        .status(404)
+        .json('Report the correct name of city, state code or country code.');
+
+      return;
+    }
+
     response.json(value);
   }
 
