@@ -72,6 +72,9 @@ const options = {
                 },
               },
             },
+            404: {
+              description: 'Neither state not found.',
+            },
           },
         },
       },
@@ -120,6 +123,9 @@ const options = {
                 },
               },
             },
+            404: {
+              description: 'Neither city not found.',
+            },
           },
         },
       },
@@ -153,6 +159,9 @@ const options = {
                   },
                 },
               },
+            },
+            404: {
+              description: 'Neither city not found.',
             },
           },
         },
