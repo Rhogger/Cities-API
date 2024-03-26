@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       {
-        url: `${process.env.RAILWAY_PUBLIC_DOMAIN}/api/`,
+        url: `/api/`,
         description: 'Development server',
       },
     ],
