@@ -10,7 +10,7 @@ class CityController {
     if (value.length <= 0) {
       response
         .status(404)
-        .json('Report the correct name of city, state code or country code.');
+        .json('Report the correct state code or country code.');
 
       return;
     }
@@ -24,9 +24,7 @@ class CityController {
     const value = cities.findByName(city_name);
 
     if (value.length <= 0) {
-      response
-        .status(404)
-        .json('Report the correct name of city, state code or country code.');
+      response.status(404).json('Report the correct name of city.');
 
       return;
     }
