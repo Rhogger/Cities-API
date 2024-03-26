@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       {
-        url: `http://localhost:${process.env.PORT}/api/`,
+        url: `${process.env.RAILWAY_SERVER}/api/`,
         description: 'Development server',
       },
     ],
