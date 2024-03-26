@@ -3,6 +3,6 @@ import StateController from '../controllers/stateController';
 
 const stateRoutes = express.Router();
 
-stateRoutes.get('/', StateController.getAll);
+stateRoutes.get('/:country_code', StateController.getAll);
 
 export default stateRoutes;

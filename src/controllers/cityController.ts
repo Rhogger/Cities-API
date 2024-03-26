@@ -6,13 +6,9 @@ type FindAllRequest = {
   state_code: string;
 };
 
-type FindByRequest = {
-  city_name: string;
-};
-
 class CityController {
   static async getAll(request: Request, response: Response) {
-    const { country_code, state_code }: FindAllRequest = request.body;
+    const { country_code, state_code } = request.params;
 
     const value = cities.findAll(country_code, state_code);
 
@@ -20,7 +16,7 @@ class CityController {
   }
 
   static async getAllByName(request: Request, response: Response) {
-    const { city_name }: FindByRequest = request.body;
+    const { city_name } = request.params;
 
     const value = cities.findByName(city_name);
 
