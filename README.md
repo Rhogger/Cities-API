@@ -6,7 +6,9 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 [Tecnologias](#tecnologias)
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-[Licença](#license)
+[Rotas](#routas)
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+[Licença](#licenca)
 
 </div>
 
@@ -50,9 +52,9 @@ O Swagger optei por construir manualmente ao invés de utilizar o AutoGen pra ge
 
 A aplicação foi hospedada no [Railway](https://railway.app) e feita a documentação dela com o Swagger e as rotas estão todas disponíveis para teste por lá.
 
-URL: [cities-api-production.up.railway.app](cities-api-production.up.railway.app)
+URL: [cities-api-production.up.railway.app](https://cities-api-production.up.railway.app)
 
-Swagger: [cities-api-production.up.railway.app/api-docs](cities-api-production.up.railway.app/api-docs)
+Swagger: [cities-api-production.up.railway.app/api-docs](https://cities-api-production.up.railway.app/api-docs)
 
 ## 🔒 Licença
 
