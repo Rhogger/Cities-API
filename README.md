@@ -46,6 +46,14 @@ O Swagger optei por construir manualmente ao invés de utilizar o AutoGen pra ge
 <br>
 <br>
 
+## ✈️ Rotas
+
+A aplicação foi hospedada no [Railway](https://railway.app) e feita a documentação dela com o Swagger e as rotas estão todas disponíveis para teste por lá.
+
+URL: [cities-api-production.up.railway.app](cities-api-production.up.railway.app)
+
+Swagger: [cities-api-production.up.railway.app/api-docs](cities-api-production.up.railway.app/api-docs)
+
 ## 🔒 Licença
 
 Esse projeto está sob a licença MIT.
