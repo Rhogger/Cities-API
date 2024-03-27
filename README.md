@@ -20,7 +20,7 @@
   <img alt="License" src="./assets/Preview.png">
 </div>
 
-Este projeto foi elaborado em sala de aula durante a disciplina de Técnicas Avançadas de Desenvolvimento de Software com linguagem focada em C#, porém fiz em Node JS.
+Este projeto foi elaborado em sala de aula durante a disciplina de Técnicas Avançadas de Desenvolvimento de Software focado em C#, porém fiz em Node JS.
 
 A tecnologia escolhida foi também para praticar e aprender um pouco mais sobre ela e a construir uma API utilizando Express.
 
